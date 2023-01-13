@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>那些惊艳的小说男神</title>
+    <style>
+        html {
+            background: url(主页面的壁纸.jpg);
+            background-size: cover;
+        }
+
+        header img {
+            width: 100%;
+            margin: 0 auto;
+            height: 400px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(221, 106, 118);
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #a29f9f;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
+
+        .column1 {
+            float: left;
+            width: 20%;
+            padding: 2px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        th {
+            background-color: rgb(213, 182, 23);
+            color: white;
+        }
+
+
+        .c1{
+    width:1190px;
+    /* 弹性布局 让元素均匀排列 */
+    display: flex;
+    justify-content: space-around;
+}
+
+.c1 li{
+    position:relative;
+    width:300px;
+    height:300px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.c1 li:hover{
+    cursor: pointer;
+}
+
+.mask{
+    position: absolute;
+    top:100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: #464646e8;
+    color:#fff;
+
+    transition:all .7s ease-out;
+}
+
+.c1 li:hover .mask{
+    top:0;
+}
+
+.mask h1{
+    line-height: 50px;
+}
+.mask p{
+    padding: 20px;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="主页面的页头图片3.jpg">
+    </header>
+    <ul>
+        <li><a href="https://tv.cctv.com/lm/xwlb/index.shtml">新闻联播</a></li>
+        <li><a href="https://tv.cctv.com/lm/xwzk/">新闻周刊</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="https://www.w3school.com.cn/">W3school</a>
+                <a href="https://gitee.com/">Gitee</a>
+                <a href="https://www.csdn.net/">CSDN</a>
+            </div>
+        </li>
+    </ul>
+
+
+    <div class="row">
+        <div class="column">
+            <h2>江停</h2>
+            <p><img src="主页面的江停.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;">江停，晋江作者淮上所著刑侦耽美小说《破云》及其衍生作品中的主角，缉毒警察，智商高且果敢。毕业于公大。在孤儿院长大，被草花A犯罪集团送至恭州警部当毒方卧底，后反水。因种种原因隐姓埋名，使用假名陆成江，并与严峫于5年前已经相识。事情结束后，与严峫结婚，相伴一生。
+            </p>
+        </div>
+        <div class="column">
+            <h2>张起灵</h2>
+            <p><img src="主页面的张起灵.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;">张起灵（小哥），铁三角的精神领袖，是全书中最善良智慧神秘强大的角色。此外，在盗笔原文中，小哥数十年间一直保持着年轻的容貌，不会发生诸如“尸变”之类的长生后遗症，可谓是完美的长生者。其全名中“起灵”二字，在古代有撤除亡者灵位之意，且张家历代族长皆称“张起灵”，由此推测张家族长亦负责将亡故的族人入殓于张家古楼之中。
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>吉尔伯特布莱斯</h2>
+            <p><img src="主页面的吉尔伯特.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;">在安妮童年的时候，因为吉尔伯特开了个玩笑，管安妮叫“红发鬼”俩人发生争执。安妮发誓要一辈子讨厌他，而吉尔伯特却喜欢上了这个特别的红头发姑娘。后来，由于他把职教本校的机会让给了安妮，两人关系和解。在安妮大学的时候，他们是校友。吉尔伯特向安妮表白，遭到拒绝。《女大学生安妮》的最后，安妮听说吉尔伯特患了重病并且可能会死掉，才终于醒悟过来，自己一直爱的是吉尔伯特。
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>陆之昂</h2>
+            <p><img src="主页面的陆之昂.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;">陆之昂温和开朗，与傅小司是两种不同性格类型的男生。他们之间好得打得头破血流，却又恨得老天怎么又生了对方一个他，彼此都已融入对方的生命。在经历了亲人离去，遭人陷害等问题时，都永远守候在彼此身边。
+            </p>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>名字</th>
+            <th>对象</th>
+            <th>职业</th>
+        </tr>
+        <tr>
+            <td>江停</td>
+            <td>严峫</td>
+            <td>警察</td>
+        </tr>
+        <tr>
+            <td>张起灵</td>
+            <td>吴邪</td>
+            <td>无业游民</td>
+        </tr>
+        <tr>
+            <td>吉尔伯特布莱斯</td>
+            <td>安妮雪莉</td>
+            <td>医生</td>
+        </tr>
+        <tr>
+            <td>陆之昂</td>
+            <td>颜末</td>
+            <td>营销总监</td>
+        </tr>
+    </table>
+    </br>
+    <h2>！！一些观影/剧推荐！！</h2>
+
+    <ul class="c1">
+        <li>
+            <img src="主页面的傲慢与偏见.jpg"
+            style="width:310px;height:310px;margin-right:15px;float:left;">
+            <div class="mask">
+                <h1>傲慢与偏见</h1>
+                <p> “傲慢使我无法接受你，偏见却让我无法爱上别人。”“我已亭亭，无忧亦无惧。”</p>
+            </div> 
+        </li>
+        <li>
+            <img src="最好的我们1.jpg"
+            style="width300px;height:300px;margin-right:15px;float:left;">
+            <div class="mask">
+                <h1>最好的我们</h1>
+                <p>当时的他是最好的他，可是很久以后的我才是最好的我，最好的我们之间隔了一整个青春，怎么奔跑也跨不过的青春。</p>
+            </div> 
+        </li>
+        <li>
+            <img src="主页面的肖申克的救赎.jpg"
+            style="width:300px;height:300px;margin-right:15px;float:left;">
+            <div class="mask">
+                <h1>肖申克的救赎</h1>
+                <p>有些鸟儿，是不应该被关在笼子里的， 因为它们的羽毛太丰润了， 当他们飞走，你会由衷的庆贺他获得自由。</p>
+            </div> 
+        </li>
+        <li>
+            <img src="主页面的海上钢琴师.jpg"
+            style="width:300px;height:300px;margin-right:15px;float:left;">
+            <div class="mask">
+                <h1>海上钢琴师</h1>
+                <p>陆上的人喜欢寻根问底，虚度了大好光阴。冬天忧虑夏天的姗姗来迟，夏天则担心冬天的将至。所以他们不停四处游走，追求一个遥不可及、四季如夏的地方，我并不羡慕。</p>
+            </div> 
+        </li>
+    </ul>
+
+
+    <div>
+        <div class="column1">
+            <h2>林黛玉</h2>
+            <p>花谢花飞飞满天,红消香断有谁怜?</p>
+            <a href="1.html"><img src="林黛玉.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;border-radius: 25px;box-shadow:10px 5px 5px black;"></a>
+        </div>
+        <div class="column1">
+            <h2>田晓霞</h2>
+            <p>你能痛苦，说明你对生活还抱有希望！</p>
+            <a href="2.html"><img src="主页面的田晓霞.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;border-radius: 25px;box-shadow:10px 5px 5px black;"></a>
+        </div>
+        <div class="column1">
+            <h2>简爱</h2>
+            <p>我向你发誓，如果上帝赋予我财富和美貌，我会让你无法离开我，就像我现在无法离开你一样。</p>
+            <a href="3.html"><img src="主页面的简爱.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;border-radius: 25px;box-shadow:10px 5px 5px black;"></a>
+        </div>
+        <div class="column1">
+            <h2>个人报告</h2>
+            <p>hellow hellow,click me please!</p>
+            <a href="4.html"><img src="自己做网页1.jpg"
+                    style="width:170px;height:170px;margin-right:15px;float:left;border-radius: 25px;box-shadow:10px 5px 5px black;"></a>
+        </div>
+    </div>
+</body>
+
+</html>
